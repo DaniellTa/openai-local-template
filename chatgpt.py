@@ -1,7 +1,7 @@
 import openai
 
-openai.api_key = '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'
-file = r"/Users/irrrl/Desktop/UofT/Py Projects/openai/chat_history.txt"
+openai.api_key = 'API-KEY'
+file = r"chat_history.txt"
 
 
 def write_to_history(file, role, content):
